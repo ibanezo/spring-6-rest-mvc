@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fc3610c-7ec4-45db-91b3-9e3229cbeedd" name="Changes" comment="SpringSecurityConfig added, filtering for properties added." />
+    <list default="true" id="6fc3610c-7ec4-45db-91b3-9e3229cbeedd" name="Changes" comment=".gitignore added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/guru/springframework/spring6restmvc/controller/BeerControllerRestAssuredTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/openapi3.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/spring6restmvc/config/SpringSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/spring6restmvc/config/SpringSecurityConfig.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,48 +36,56 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2ShdsLpATPENyuJb71Bt25yRDqN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;rest__services&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/sht/Courses/Udemy/spring-6-rest-mvc&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;0044c7b63f23ae9ce17f67a803699dee&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/sht/Courses/Udemy/spring-6-rest-mvc/src/test/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "spring.configuration.checksum": "0044c7b63f23ae9ce17f67a803699dee",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="guru.springframework.spring6restmvc.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="$PROJECT_DIR$/src/main/resources/db/migration" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -87,7 +101,7 @@
       <recent name="guru.springframework.spring6restmvc.bootstrap" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring6RestMvcApplication">
+  <component name="RunManager" selected="JUnit.BeerControllerRestAssuredTest.testListBeers">
     <configuration name="BeerControllerIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-6-rest-mvc" />
       <extension name="coverage">
@@ -99,6 +113,37 @@
       <option name="PACKAGE_NAME" value="guru.springframework.spring6restmvc.controller" />
       <option name="MAIN_CLASS_NAME" value="guru.springframework.spring6restmvc.controller.BeerControllerIntegrationTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeerControllerRestAssuredTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-6-rest-mvc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springframework.spring6restmvc.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springframework.spring6restmvc.controller" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.spring6restmvc.controller.BeerControllerRestAssuredTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeerControllerRestAssuredTest.testListBeers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-6-rest-mvc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="guru.springframework.spring6restmvc.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="guru.springframework.spring6restmvc.controller" />
+      <option name="MAIN_CLASS_NAME" value="guru.springframework.spring6restmvc.controller.BeerControllerRestAssuredTest" />
+      <option name="METHOD_NAME" value="testListBeers" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,38 +160,6 @@
       <option name="MAIN_CLASS_NAME" value="guru.springframework.spring6restmvc.controller.BeerControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <dir value="$PROJECT_DIR$/src/test/java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BeerControllerTest.createBeerNullBeerNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-6-rest-mvc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="guru.springframework.spring6restmvc.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="guru.springframework.spring6restmvc.controller" />
-      <option name="MAIN_CLASS_NAME" value="guru.springframework.spring6restmvc.controller.BeerControllerTest" />
-      <option name="METHOD_NAME" value="createBeerNullBeerNameTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BeerControllerTest.testPatchBeer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-6-rest-mvc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="guru.springframework.spring6restmvc.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="guru.springframework.spring6restmvc.controller" />
-      <option name="MAIN_CLASS_NAME" value="guru.springframework.spring6restmvc.controller.BeerControllerTest" />
-      <option name="METHOD_NAME" value="testPatchBeer" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -169,9 +182,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="SwaggerCodegen">
+      <option name="activeConfigurationType" value="FILE" />
+      <option name="configurationPath" value="" />
+      <option name="customJreEnabled" value="false" />
+      <option name="customTemplatesPath" value="" />
+      <option name="enableDebugLogging" value="false" />
+      <option name="generateToPath" value="$PROJECT_DIR$/gen" />
+      <option name="generationParameters">
+        <list />
+      </option>
+      <option name="generatorPath" value="https://repo1.maven.org/maven2/org/openapitools/openapi-generator-cli/5.0.0/openapi-generator-cli-5.0.0.jar" />
+      <option name="jdkPath" value="" />
+      <option name="language" value="java" />
+      <option name="specificationPath" value="$PROJECT_DIR$/target/openapi3.yaml" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="JUnit.BeerControllerTest.createBeerNullBeerNameTest" />
-      <item itemvalue="JUnit.BeerControllerTest.testPatchBeer" />
+      <item itemvalue="JUnit.BeerControllerRestAssuredTest" />
+      <item itemvalue="JUnit.BeerControllerRestAssuredTest.testListBeers" />
       <item itemvalue="JUnit.BeerControllerIntegrationTest" />
       <item itemvalue="JUnit.BeerControllerTest" />
       <item itemvalue="JUnit.java in spring-6-rest-mvc" />
@@ -179,11 +208,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BeerControllerRestAssuredTest.testListBeers" />
+        <item itemvalue="JUnit.BeerControllerRestAssuredTest" />
         <item itemvalue="JUnit.java in spring-6-rest-mvc" />
         <item itemvalue="JUnit.BeerControllerIntegrationTest" />
         <item itemvalue="JUnit.BeerControllerTest" />
-        <item itemvalue="JUnit.BeerControllerTest.createBeerNullBeerNameTest" />
-        <item itemvalue="JUnit.BeerControllerTest.testPatchBeer" />
       </list>
     </recent_temporary>
   </component>
@@ -204,6 +233,9 @@
       <workItem from="1691063763781" duration="2593000" />
       <workItem from="1691489373474" duration="20000" />
       <workItem from="1691591308795" duration="3928000" />
+      <workItem from="1691652317042" duration="11977000" />
+      <workItem from="1692704866718" duration="50000" />
+      <workItem from="1692705355966" duration="6174000" />
     </task>
     <task id="LOCAL-00001" summary="Spring MVC Rest Services">
       <created>1689693789828</created>
@@ -247,7 +279,28 @@
       <option name="project" value="LOCAL" />
       <updated>1691651728344</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Spring MVC Rest Services, MockMVC Tests, Exception Handling und Spring Security implemented.">
+      <created>1691652502549</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1691652502549</updated>
+    </task>
+    <task id="LOCAL-00008" summary="OpenAPI implemented">
+      <created>1691661206640</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1691661206640</updated>
+    </task>
+    <task id="LOCAL-00009" summary=".gitignore added">
+      <created>1691661338382</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1691661338382</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +312,10 @@
     <MESSAGE value="Exception Handling and Refactoring" />
     <MESSAGE value="Refactor, New Classes and Flyway migration script added" />
     <MESSAGE value="SpringSecurityConfig added, filtering for properties added." />
-    <option name="LAST_COMMIT_MESSAGE" value="SpringSecurityConfig added, filtering for properties added." />
+    <MESSAGE value="Spring MVC Rest Services, MockMVC Tests, Exception Handling und Spring Security implemented." />
+    <MESSAGE value="OpenAPI implemented" />
+    <MESSAGE value=".gitignore added" />
+    <option name="LAST_COMMIT_MESSAGE" value=".gitignore added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
